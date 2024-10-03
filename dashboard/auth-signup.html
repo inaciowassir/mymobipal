@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en" data-layout="horizontal" data-topbar="light" data-sidebar="light" data-sidebar-size="lg" data-sidebar-image="none" data-preloader="disable">
+
+<head>
+
+        <meta charset="utf-8" />
+        <title>MyMobiPal - Melhor plataforma de pagamento online</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Minimal Admin & Dashboard Template" name="description" />
+        <meta content="Themesbrand" name="author" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!--Swiper slider css-->
+    <link href="assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- Layout config Js -->
+        <script src="assets/js/layout.js"></script>
+        <!-- Bootstrap Css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+        <!-- custom Css-->
+        <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+
+
+        <section class="auth-page-wrapper py-5 position-relative d-flex align-items-center justify-content-center min-vh-100 bg-light">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card overflow-hidden">
+                            <div class="row g-0">
+                                <div class="col-lg-7">
+                                    <div class="mb-0 border-0 shadow-none">
+                                        <div class="p-4 p-sm-5 m-lg-4">
+                                            <div class="text-center mt-2">
+                                                <h5 class="text-primary fs-20">Criar nova conta</h5>
+                                                <p class="text-muted">Parabens pela decisão, o nosso principal objectivo é garantir o melhor para os nossos clientes. Venha conosco nessa jornada e melhore sua experiencia de pagamentos digitais</p>
+                                            </div>
+                                            <div class="p-2 mt-4">
+                                                <form action="auth-twostep.html" class="needs-validation auth-input" novalidate>
+                                            
+                                                    <div class="mb-3">
+                                                        <label for="useremail" class="form-label">Email <span class="text-danger">*</span></label>
+                                                        <input type="email" class="form-control" id="useremail" placeholder="Informe email" required>
+                                                        <div class="invalid-feedback">
+                                                            Por favor informe seu email
+                                                        </div>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="username" class="form-label">Utilizador <span class="text-danger">*</span></label>
+                                                        <input type="text" class="form-control" id="username" placeholder="Informe utilizador" required>
+                                                        <div class="invalid-feedback">
+                                                            Por favor informe seu utilizador
+                                                        </div>
+                                                    </div>
+                                        
+                                                    <div class="mb-3">
+                                                        <label class="form-label" for="password-input">Senha</label>
+                                                        <div class="position-relative auth-pass-inputgroup">
+                                                            <input type="password" class="form-control pe-5 password-input" onpaste="return false" placeholder="Informe a senha" id="password-input" aria-describedby="passwordInput" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                                                            <button class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon h-100" type="button" id="password-addon"><i class="ri-eye-fill align-middle"></i></button>
+                                                            <div class="invalid-feedback">
+                                                                Por favor informe a senha
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                        
+                                                    <div class="mb-4">
+                                                        <p class="mb-0 fs-12 text-muted fst-italic">Registando-se voce concorda com os nossos <a href="#" class="text-primary text-decoration-underline fst-normal fw-medium">Termos de uso</a></p>
+                                                    </div>
+                                        
+                                                    <div id="password-contain" class="p-3 bg-light mb-2 rounded">
+                                                        <h5 class="fs-13">A senha deve conter:</h5>
+                                                        <p id="pass-length" class="invalid fs-12 mb-2">Minimo <b>8 caracteres</b></p>
+                                                        <p id="pass-lower" class="invalid fs-12 mb-2">Pelo menos <b>uma letra minuscula</b> de (a-z)</p>
+                                                        <p id="pass-upper" class="invalid fs-12 mb-2">Pelo menos <b>uma letra maiuscula</b> de (A-Z)</p>
+                                                        <p id="pass-number" class="invalid fs-12 mb-0">Um  <b>numbero</b> (0-9)</p>
+                                                    </div>
+                                        
+                                                    <div class="mt-4">
+                                                        <button class="btn btn-primary w-100" type="submit">Criar nova conta</button>
+                                                    </div>
+                                                </form>
+                                            
+                                                <div class="text-center mt-5">
+                                                    <p class="mb-0">Ja tem uma conta criada ? <a href="auth-signin.html" class="fw-semibold text-primary text-decoration-underline"> Entrar na conta </a> </p>
+                                                </div>
+                                            </div>
+                                        </div><!-- end card body -->
+                                    </div><!-- end card -->
+                                </div>
+                                <!--end col-->
+    
+                                <div class="col-lg-5">
+                                <div
+                                    class="card rounded-0 auth-card bg-primary h-100 border-0 shadow-none p-sm-3 overflow-hidden mb-0">
+                                    <div class="bg-overlay bg-primary"></div>
+                                    <div
+                                        class="card-body p-4 d-flex justify-content-between flex-column position-relative">
+                                        <div class="auth-image mb-3">
+                                            <img src="../page-5.png" alt="" class="img-fluid w-100" />
+                                        </div>
+                                        <!-- Swiper -->
+
+                                        <div class="text-center text-white-75">
+                                            <p class="mb-0">&copy;
+                                                <script>document.write(new Date().getFullYear())</script> Mymobipal<i
+                                                    class="mdi mdi-heart text-danger"></i> Todos direitos reservados
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <!--end col-->
+                            </div>
+                            <!--end row-->
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+            </div><!--end container-->
+        </section>
+
+        <!-- JAVASCRIPT -->
+        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
+        <script src="assets/js/plugins.js"></script>
+
+        <!--Swiper slider js-->
+        <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+        <!-- swiper.init js -->
+        <script src="assets/js/pages/auth.init.js"></script>
+        <!-- validation init -->
+        <script src="assets/js/pages/form-validation.init.js"></script>
+        <!-- password create init -->
+        <script src="assets/js/pages/passowrd-create.init.js"></script>
+
+    </body>
+</html>
