@@ -25,7 +25,8 @@ body {
 /* Mega Dropdown */
 .mega-dropdown {
   background-color: #f8f9fa;
-  border-radius: 8px;
+  border-radius: 0px!important;
+  border: none!important;
   padding: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   margin-top: 10px;
@@ -274,16 +275,19 @@ body {
   text-decoration: none;
 }
 
-.products .orange {
-  background: #F19B5F;
+.orange {
+  background: #F19B5F!important;
+  border-color: #F19B5F!important;
 }
 
-.products .pink {
-  background: #CF3BB3;
+.pink {
+  background: #CF3BB3!important;
+  border-color: #CF3BB3!important;
 }
 
-.products .blue {
-  background: #5E75DD !important;
+.blue {
+  background: #5E75DD!important;
+  border-color: #5E75DD!important;
 }
 
 /*Price*/
@@ -296,7 +300,7 @@ body {
 .pricing ul li {
   display: flex;
   align-items: center;
-  flex-direction: flex-row;
+  flex-direction: row;
 }
 
 .pricing ul li i {
@@ -314,7 +318,7 @@ body {
   margin: 0.98rem 0;
   display: flex;
   align-items: center;
-  flex-direction: flex-row;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -472,6 +476,23 @@ body {
   text-transform: uppercase;
 }
 
+/*Signin*/
+.signin {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+.signin input {
+  width: 100%!important;
+  background: #fff!important;
+  color: #333!important;
+  border: 1px solid #222!important;
+  padding: 14px 20px!important;
+  border-radius: 50px!important;
+  margin-top: 12px!important;	
+}
 /*
   =========================================================================================
                                     Social Icons
